@@ -22,7 +22,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
 
-        <script src="index.js" type="text/js"></script>
+        <script src="src/index.js" type="text/js"></script>
+        <link rel="stylesheet" href="src/index.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
