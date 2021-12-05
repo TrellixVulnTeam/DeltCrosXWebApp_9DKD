@@ -1,0 +1,26 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "DeltCrosX Main Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "testlog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeltCrosX/DeltCrosXWebApp.git"
+  },
+  "keywords": [
+    "DCXWEBAPP"
+  ],
+  "author": "DeltCrosX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeltCrosX/DeltCrosXWebApp/issues"
+  },
+  "homepage": "https://github.com/DeltCrosX/DeltCrosXWebApp#readme",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "express": "^4.17.1"
+  }
+}
