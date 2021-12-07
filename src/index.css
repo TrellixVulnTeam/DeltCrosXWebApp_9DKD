@@ -8,6 +8,10 @@ body {
     color: #373a3c;
     text-align: left;
 }
-#firstpagecard1 {
-	margin-bottom: 3rem;
+@media screen and (max-width: 900px) {
+	#firstpagecard1 {
+		margin-bottom: 3rem;
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
 }
