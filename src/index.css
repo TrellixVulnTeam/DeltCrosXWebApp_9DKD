@@ -1,12 +1,13 @@
 @charset: "UTF-8";
-
-* {
-	font-family: "Segoe UI", sans-serif;
-	font-style: inherit;
-	color: #242526;
-	--bs-font-family: "Segoe UI", sans-serif;
-	--bs-font-monospace: "Monaco", sans-serif;
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #373a3c;
+    text-align: left;
 }
-.header{
-	
+#firstpagecard1 {
+	margin-bottom: 12rem;
 }
