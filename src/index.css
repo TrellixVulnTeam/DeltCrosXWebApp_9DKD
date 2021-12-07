@@ -8,7 +8,7 @@ body {
     color: #373a3c;
     text-align: left;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 	#firstpagecard1 {
 		margin-bottom: 3rem;
 		margin-left: 3rem;
