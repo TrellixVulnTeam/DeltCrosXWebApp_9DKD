@@ -32,6 +32,11 @@
         <link rel="stylesheet" href="src/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js" type="text/js"></script>
     </head>
+	<script type="text/js">
+		if(window.innerWidth < 1100) {
+			location.replace('../errorsrc/error.html');
+		}
+	</script>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -89,8 +94,8 @@
 					<div class="card" style="width: auto;">
 						<div class="card-body">
 							<h5 class="card-title">Friendly for everyone!</h5>
-							<p class="card-text">We offer you a service in standard price but have high quality services to serve you.</p>
-							<a href="#" class="btn btn-warning">View Pricing</a>
+							<p class="card-text">I have hard work to make sure content that i added is friendly for everyone!</p>
+							<a href="#" class="btn btn-warning">Donate</a>
 						</div>
 					</div>
 				</div>

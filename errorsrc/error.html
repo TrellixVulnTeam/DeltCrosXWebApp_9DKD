@@ -1,0 +1,32 @@
+<script>
+    function redirectMainPort(){
+        location.replace("https://www.juanperfect.xyz/");
+    }
+    function redirect(){
+        if (window.innerWidth >= 1100){
+            location.replace("index.html");
+        }
+    }
+    window.addEventListener('resize', function(){
+        redirect();
+    });
+    redirect();
+</script>
+<link rel="stylesheet" href="errorStyle.css">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wvkb81vt/Astronaut/astronaout.json"  class="fvid" background="#FFF4E2"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+        </div>
+        <div class="col-md-6 align-self-center">
+          <h1>OOP's!!</h1>
+          <h2>Sorry the Responsive website are under development</h2>
+          <p>this page are not finish yet. Try to resize your browser to 1100 px. after that we will autometical redirect you to our page or you can going to our main portal by clicking the link below
+          </p>
+          <button onclick="redirectMainPort()" class="btn green">Go to the main Portal</button>
+        </div>
+      </div>
+    </div>
+  </main>
