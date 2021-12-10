@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Nunito Sans";
+  font-family: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: var(--blue);
   font-size: 1em;
 }

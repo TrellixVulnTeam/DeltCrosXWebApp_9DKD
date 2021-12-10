@@ -1,5 +1,15 @@
 @charset "UTF-8";
-
+/*!
+* Start Bootstrap - New Age v6.0.3 (https://startbootstrap.com/theme/new-age)
+* Copyright 2013-2021 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root {
   --bs-blue: #2937f0;
   --bs-indigo: #6610f2;
@@ -22,8 +32,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-sans-serif: "Inter";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-family-sans-serif: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  --bs-font-family-monospace: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
@@ -5619,7 +5629,6 @@ textarea.form-control-lg {
   display: block;
   max-width: 276px;
   font-family: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   text-align: left;
@@ -10854,7 +10863,7 @@ html {
 }
 
 .font-alt {
-  font-family: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+  font-family: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .text-gradient {
@@ -10962,7 +10971,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://th.bing.com/th/id/OIP.3825JwFy-LVBQKmg0gqjjQHaE8?pid=ImgDet&rs=1");
+  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
   background-position: center;
   background-size: cover;
 }
@@ -11166,5 +11175,13 @@ footer a:hover, footer a:active, footer a:focus {
   }
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 15rem;
+  }
+}
+@media (min-width: 1400px) {
+  .masthead .masthead-device-mockup .circle {
+    width: 70%;
+  }
+  .masthead .masthead-device-mockup .device-wrapper {
+    max-width: 17rem;
   }
 }
