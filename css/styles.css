@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/styles.css
 @charset "UTF-8";
 
 :root {
@@ -11167,12 +11168,21 @@ footer a:hover, footer a:active, footer a:focus {
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 15rem;
   }
+=======
+@charset: "UTF-8";
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #373a3c;
+    text-align: left;
 }
-@media (min-width: 1400px) {
-  .masthead .masthead-device-mockup .circle {
-    width: 70%;
-  }
-  .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 17rem;
-  }
+@media screen and (max-width: 995px),
+	screen and (max-width: 700px) {
+	#firstpagecard1 {
+		margin: 3rem;
+	}
+>>>>>>> 34b6c66186a733ab3966e0745c52c391d43e1c07:src/index.css
 }
