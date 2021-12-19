@@ -21,6 +21,9 @@
   "homepage": "https://github.com/DeltCrosX/DeltCrosXWebApp#readme",
   "dependencies": {
     "angular": "^1.8.2",
-    "express": "^4.17.1"
+    "angularjs": "0.0.1",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "mongodb": "^4.2.2"
   }
 }
