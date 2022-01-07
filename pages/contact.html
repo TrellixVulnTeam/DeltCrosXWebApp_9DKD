@@ -79,31 +79,35 @@
 		<section id="contactForms" class="border border-warning">
 			<div class="container px-5">
 				<div class="row gx-5 align-items-center">
-					<form>
-						<div class="mb-3">
-							<label for="emailInput">Your Email</label>
-							<input type="email" class="form-control" id="emailInput" aria-describedby="emailFormDescript" placeholder="Enter your Email"/>
-							<small id="emailFormDescript" class="form-text text-muted">You sensitive credentials will never shown to public.</small>
-						</div>
-						<div class="mb-3">
-							<label for="phoneNumberInput">Your Phone Number</label>
-							<input type="number" class="form-control" id="phoneNumberInput" placeholder="Your phone number"/>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<select id="countrycode">
-										<option selected>+1</option>
-										<option>+44</option>
-										<option>+66</option>
-									</select>
+					<div class="bd-example">
+						<form>
+							<fieldset>
+								<div class="mb-3">
+									<label for="emailInput">Your Email</label>
+									<input type="email" class="form-control" id="emailInput" aria-describedby="emailFormDescript" placeholder="Enter your Email"/>
+									<small id="emailFormDescript" class="form-text text-muted">You sensitive credentials will never shown to public.</small>
 								</div>
-							</div>
-						</div>
-						<div class="mb-3">
-							<label for="textaria">What do you want to contact</label>
-							<textaria class="form-control" id="textaria" row="3"></textaria>
-						</div>
-						<button class="btn btn-warning" onclick="..." type="submit">Submit Form</button>
-					</form>
+								<div class="mb-3">
+									<label for="phoneNumberInput">Your Phone Number</label>
+									<input type="number" class="form-control" id="phoneNumberInput" placeholder="Your phone number"/>
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<select id="countrycode">
+												<option selected>+1</option>
+												<option>+44</option>
+												<option>+66</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="mb-3">
+									<label for="textaria">What do you want to contact</label>
+									<textaria class="form-control" id="textaria" rows="3"></textaria>
+								</div>
+								<button class="btn btn-warning" onclick="..." type="submit">Submit Form</button>
+							</fieldset>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
