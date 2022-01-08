@@ -42,6 +42,11 @@
         <link rel="stylesheet" href="/css/styles.css?v=1.1.1" />
     </head>
 	<body class="page-top">
+		<script>
+			function redirectMainPort() {
+				location.replace('../Index.html');
+			}
+		</script>
 		<!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
@@ -77,12 +82,23 @@
 			</div>
 		</header>
 		<section id="privacyMainSecDetail">
-			<div class="container px-5">
-				<div class="row gx-5 align-items-center">
-					<h3 class="display-1 lh-1 mb-4">Privacy Will Update Soon</h3>
-					<p class="lead fw-normal text-muted mb-5">Our Website is just made this! we are thinking about privacy.</p>
+			<link rel="stylesheet" href="errorStyle.css">
+			<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+			<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wvkb81vt/Astronaut/astronaout.json"  class="fvid" background="#FFF4E2"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+		  	<main>
+				<div class="container">
+			  		<div class="row">
+						<div class="col-md-6 align-self-center">
+						</div>
+						<div class="col-md-6 align-self-center">
+				  			<h1>OOP's</h1>
+				  			<h2>Sorry this page are under development</h2>
+				  			<p>this page are not finish yet. Tune in for update of our website!</p>
+				  			<button onclick="redirectMainPort()" class="btn green">back to Home</button>
+						</div>
+			  		</div>
 				</div>
-			</div>
+		  	</main>
 		</section>
 	</body>
 </html>
